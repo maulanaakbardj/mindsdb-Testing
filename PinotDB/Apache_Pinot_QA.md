@@ -23,15 +23,15 @@ To use this handler and connect to the Apache Pinot server in MindsDB.
 
 **Screeshot Result: Query successfully completed**
 
-![test_2](assets/3.png)
+![test_3](assets/3.png)
 
 -----
 
-### 2. Query Table Apache Pinot Datasource
+### 3. Query Table Apache Pinot Datasource
 
 **Screeshot Result: Query successfully completed**
 
-![test_3](assets/4.png)
+![test_4](assets/4.png)
 
 -----
 
