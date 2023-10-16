@@ -6,14 +6,14 @@ For more details, refer to the related [GitHub Issue](https://github.com/mindsdb
 
 ## Test Cases Incoming Webhook in Microsoft Teams
 
-![test_1](assets/1.png)
+![test_1](Assets/1.png)
 
 -----
 ### 1. Install the Microsoft Teams handler dependencies
 
 **Screeshot Result: Successfully installed**
 
-![test_2](assets/2.png)
+![test_2](Assets/2.png)
 
 -----
 ### 2. Create a Microsoft Teams app integration on MindsDB 
@@ -23,7 +23,7 @@ To use this handler and connect to the Microsoft Teams app in MindsDB.
 
 **Screeshot Result: Query successfully completed**
 
-![test_3](assets/3i.png)
+![test_3](Assets/3i.png)
 
 -----
 
@@ -31,9 +31,9 @@ To use this handler and connect to the Microsoft Teams app in MindsDB.
 
 **Screeshot Result: Query successfully completed**
 
-![test_4](assets/4.png)
+![test_4](Assets/4.png)
 
-![test_5](assets/5.png)
+![test_5](Assets/5.png)
 
 -----
 
@@ -41,9 +41,9 @@ To use this handler and connect to the Microsoft Teams app in MindsDB.
 
 **Screeshot Result: Query successfully completed**
 
-![test_6](assets/6.png)
+![test_6](Assets/6.png)
 
-![test_7](assets/7.png)
+![test_7](Assets/7.png)
 
 -----
 
