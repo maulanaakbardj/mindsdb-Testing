@@ -40,9 +40,9 @@ To use this handler and connect to the Strava app in MindsDB.
 
 **Screeshot Result: Query successfully completed**
 
-![test_6](Assets/6.png)
+![test_6](assets/6.png)
 
-![test_7](Assets/7.png)
+![test_7](assets/7.png)
 
 -----
 
