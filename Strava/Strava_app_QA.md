@@ -36,16 +36,16 @@ To use this handler and connect to the Strava app in MindsDB.
 
 -----
 
-### 4. Query multiple messages in a single query to Teams channel
+### 4. Advanced queries for the Strava handler
 
 **Screeshot Result: Query successfully completed**
 
-![test_6](assets/6.png)
+![test_5](assets/5.png)
 
-![test_7](assets/7.png)
+![test_6](assets/6.png)
 
 -----
 
 ## Result
 
-The Microsoft Teams app integration has been successfully tested, and all test cases are working as expected.
+The Strava app integration has been successfully tested, and all test cases are working as expected.
