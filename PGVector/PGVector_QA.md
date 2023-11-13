@@ -56,9 +56,9 @@ SELECT m.embedding AS embeddings, t.review content FROM  mysql_demo_db.amazon_re
 **Screeshot Result: Query successfully completed**
 
 ![test_4](assets/4.png)
-![test_5](assets/5.png)
-![test_6](assets/6.png)
-![test_7](assets/7.png)
+![test_5](assets/5_fix.png)
+![test_6](assets/6_fix.png)
+![test_7](assets/7_fix.png)
 
 -----
 
