@@ -45,13 +45,12 @@ USING
   engine = 'openai',
   model_name='text-embedding-ada-002',    
   mode = 'embedding',    
-  question_column = 'your_database_column'; 
+  question_column = 'review'; 
 
-CREATE TABLE pvec.items
-    (SELECT embedding AS embeddings
-        FROM (SELECT * FROM mysql_demo_db.demo_fda_context
-        LIMIT 3) AS d
-join  openai_emb);
+create table pvec.itemstest (
+SELECT m.embedding AS embeddings, t.review content FROM  mysql_demo_db.amazon_reviews t
+  join openai_emb  m
+);
 ```
 
 **Screeshot Result: Query successfully completed**
