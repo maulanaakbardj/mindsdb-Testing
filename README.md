@@ -1,1 +1,1 @@
-# mindsdb-Testing
+# Integration Testing MindsDB
