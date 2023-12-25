@@ -50,3 +50,9 @@ WITH
       "token": "xoxb-....",
       "app_token": "xapp-...."
     };
+
+Create Chatbot text_to_sql_chatbot using
+database = 'mindsdb_slack',
+agent = 'text_to_sql_agent';
+
+SELECT * FROM Chatbots;
