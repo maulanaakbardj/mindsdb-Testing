@@ -11,3 +11,19 @@ PARAMETERS = {
 
 CREATE ML_ENGINE langchain_engine
 FROM langchain;
+
+CREATE MODEL demo_name
+PREDICT answer
+USING
+    engine = 'langchain_engine',
+    input_column='question',
+    api_key = 'API-KEY-OPENAI',
+    mode = 'conversational',
+    user_column = 'question',
+    assistant_column = 'answer',
+    model_name = 'gpt-4',
+    max_tokens = 100,
+    temperature = 0,
+    verbose = true,
+    prompt_template = 'Answer the user input in a helpful way';
+
