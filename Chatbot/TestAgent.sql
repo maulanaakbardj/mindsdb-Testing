@@ -28,3 +28,10 @@ USING
     prompt_template = 'Answer the user input in a helpful way';
 
 SELECT * from models where name = 'demo_name';
+
+CREATE SKILL text_to_sql_skill USING
+type = 'text_to_sql',
+database = 'mysql_demo_db',
+tables = ['house_sales'];
+
+SELECT * FROM skills;
