@@ -27,3 +27,4 @@ USING
     verbose = true,
     prompt_template = 'Answer the user input in a helpful way';
 
+SELECT * from models where name = 'demo_name';
