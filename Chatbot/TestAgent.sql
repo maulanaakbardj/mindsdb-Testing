@@ -8,3 +8,6 @@ PARAMETERS = {
    "port": "3306",
    "database": "public"
    };
+
+CREATE ML_ENGINE langchain_engine
+FROM langchain;
