@@ -35,3 +35,10 @@ database = 'mysql_demo_db',
 tables = ['house_sales'];
 
 SELECT * FROM skills;
+
+
+CREATE AGENT text_to_sql_agent USING
+model = 'demo_name',
+skills = ['text_to_sql_skill'];
+
+SELECT * FROM agents;
