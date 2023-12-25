@@ -42,3 +42,11 @@ model = 'demo_name',
 skills = ['text_to_sql_skill'];
 
 SELECT * FROM agents;
+
+CREATE DATABASE mindsdb_slack
+WITH
+  ENGINE = 'slack',
+  PARAMETERS = {
+      "token": "xoxb-....",
+      "app_token": "xapp-...."
+    };
